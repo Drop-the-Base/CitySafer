@@ -19,24 +19,24 @@ export default function PhoneFrame({ children }: { children: React.ReactNode }) 
   }, []);
 
   return (
-    <div className="w-full min-h-screen bg-olive-950 text-white flex flex-col md:flex-row items-center justify-center relative font-sans md:gap-16 p-4">
+    <div className="w-full min-h-screen bg-olive-950 text-white flex flex-col md:flex-row items-center justify-center relative font-sans p-4 overflow-hidden">
       {/* Desktop presentation sidebar */}
-      <div className="hidden md:flex flex-col items-start justify-center max-w-sm z-20">
+      <div className="hidden md:flex flex-col items-start justify-center max-w-[300px] lg:max-w-sm z-20 absolute left-8 lg:left-[10%] xl:left-[15%]">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-lime-500 to-yellow-500 flex items-center justify-center text-2xl font-bold shadow-xl shadow-lime-900/40">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-lime-500 to-yellow-500 flex items-center justify-center text-xl font-bold shadow-xl shadow-lime-900/40">
             🛡️
           </div>
           <div>
             <div className="flex items-center gap-2 mb-1">
-              <span className="font-extrabold text-2xl tracking-tight text-white">Lumina</span>
-              <span className="px-2.5 py-1 rounded-full text-[11px] font-bold bg-lime-950 text-lime-300 border border-lime-800">
+              <span className="font-extrabold text-xl tracking-tight text-white">Lumina</span>
+              <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-lime-950 text-lime-300 border border-lime-800">
                 Podgląd Aplikacji
               </span>
             </div>
-            <p className="text-sm text-olive-400">Defense · Bezpieczny powrót do domu</p>
+            <p className="text-xs text-olive-400">Defense · Bezpieczny powrót do domu</p>
           </div>
         </div>
-        <p className="text-olive-500 text-sm mt-4 leading-relaxed">
+        <p className="text-olive-500 text-xs mt-4 leading-relaxed">
           Interaktywny prototyp aplikacji mobilnej. Przetestuj funkcje takie jak nawigacja do domu, zgłaszanie zagrożeń i tryb SOS bezpośrednio w przeglądarce.
         </p>
       </div>
