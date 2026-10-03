@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import BottomNav from '@/components/BottomNav';
 import PhoneFrame from '@/components/PhoneFrame';
+import StoreHydration from '@/components/StoreHydration';
+import DeadManMonitor from '@/components/DeadManMonitor';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -14,8 +16,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pl">
-      <body className={`${inter.className} bg-olive-950 text-white min-h-screen antialiased selection:bg-lime-400 selection:text-olive-950`}>
+      <body className={`${inter.className} bg-olive-950 text-white h-[100dvh] overflow-hidden antialiased selection:bg-lime-400 selection:text-olive-950`}>
+        <StoreHydration />
         <PhoneFrame>
+          <DeadManMonitor />
           {children}
           <BottomNav />
         </PhoneFrame>
