@@ -180,7 +180,7 @@ export default function ContactsPage() {
                 type="checkbox"
                 checked={smsFallback}
                 onChange={(e) => setSmsFallback(e.target.checked)}
-                className="rounded border-olive-700 text-lime-500 focus:ring-lime-400"
+                className="rounded border-olive-700 accent-lime-500 focus:ring-lime-400"
               />
               SMS Fallback
             </label>
@@ -189,7 +189,7 @@ export default function ContactsPage() {
                 type="checkbox"
                 checked={liveLocation}
                 onChange={(e) => setLiveLocation(e.target.checked)}
-                className="rounded border-olive-700 text-lime-500 focus:ring-lime-400"
+                className="rounded border-olive-700 accent-lime-500 focus:ring-lime-400"
               />
               Podgląd trasy GPS
             </label>

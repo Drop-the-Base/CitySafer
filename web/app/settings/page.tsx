@@ -75,7 +75,7 @@ export default function SettingsPage() {
             type="checkbox"
             checked={deadManSettings.detectRun}
             onChange={(e) => updateDeadManSettings({ detectRun: e.target.checked })}
-            className="w-5 h-5 rounded border-olive-700 text-lime-500 focus:ring-lime-400"
+            className="w-5 h-5 rounded border-olive-700 accent-lime-500 focus:ring-lime-400"
           />
         </div>
 
@@ -96,7 +96,7 @@ export default function SettingsPage() {
               type="checkbox"
               checked={deadManSettings.detectDarkStop}
               onChange={(e) => updateDeadManSettings({ detectDarkStop: e.target.checked })}
-              className="w-5 h-5 rounded border-olive-700 text-lime-500 focus:ring-lime-400"
+              className="w-5 h-5 rounded border-olive-700 accent-lime-500 focus:ring-lime-400"
             />
           </div>
           {deadManSettings.detectDarkStop && (
@@ -133,7 +133,7 @@ export default function SettingsPage() {
               type="checkbox"
               checked={deadManSettings.detectRouteDeviation}
               onChange={(e) => updateDeadManSettings({ detectRouteDeviation: e.target.checked })}
-              className="w-5 h-5 rounded border-olive-700 text-lime-500 focus:ring-lime-400"
+              className="w-5 h-5 rounded border-olive-700 accent-lime-500 focus:ring-lime-400"
             />
           </div>
           {deadManSettings.detectRouteDeviation && (
@@ -168,7 +168,7 @@ export default function SettingsPage() {
             type="checkbox"
             checked={deadManSettings.detectLowBattery}
             onChange={(e) => updateDeadManSettings({ detectLowBattery: e.target.checked })}
-            className="w-5 h-5 rounded border-olive-700 text-lime-500 focus:ring-lime-400"
+            className="w-5 h-5 rounded border-olive-700 accent-lime-500 focus:ring-lime-400"
           />
         </div>
       </div>
