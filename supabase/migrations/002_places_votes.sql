@@ -1,5 +1,5 @@
 -- ============================================================
--- Lumina — Migration 002: places, report votes, SOS trigger types
+-- City Safer — Migration 002: places, report votes, SOS trigger types
 -- Run in Supabase SQL Editor AFTER 001_init.sql (+ seeds/001_seed.sql)
 -- ============================================================
 

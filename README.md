@@ -1,4 +1,4 @@
-Lumina
+City Safer
 Category: Defense
 Problem: People moving alone through big cities at night (after work, university, events) are exposed to real dangers, and standard navigation routes them through dark, unsafe areas
 Solution:
@@ -45,7 +45,7 @@ system SOS, bo jedna apka dla całego bezpieczeństwa, który
 
 O KONKURENCJI:
 
-Lumina łączy inteligentne omijanie ryzyka przed zdarzeniem (routing) z niewidzialną automatyzacją ratunkową w trakcie powrotu (sensory + brak sieci). 
+City Safer łączy inteligentne omijanie ryzyka przed zdarzeniem (routing) z niewidzialną automatyzacją ratunkową w trakcie powrotu (sensory + brak sieci). 
 
 HomeGirl to polska aplikacja mobilna stworzona po to, aby kobiety wracające samotnie do domu czuły się bezpieczniej. Obecnie jej działanie jest tymczasowo zawieszone.
 
@@ -79,6 +79,6 @@ Podsumowanie rynkowe
 Większość konkurencji dzieli się na dwa bieguny:
 Pasywne platformy społecznościowe/rozmowne (jak HomeGirl), które dają komfort psychiczny, ale nie nawigują i nie mają telemetrii ratunkowej.
 Narzędzia alarmowe z wielkim przyciskiem SOS (WalkSafe, bSafe), które wymagają odblokowania telefonu i trzymania palca na szkle w chwili bezpośredniego zagrożenia.
-Lumina łączy inteligentne omijanie ryzyka przed zdarzeniem (routing) z niewidzialną automatyzacją ratunkową w trakcie powrotu (sensory + brak sieci).
+City Safer łączy inteligentne omijanie ryzyka przed zdarzeniem (routing) z niewidzialną automatyzacją ratunkową w trakcie powrotu (sensory + brak sieci).
 
 

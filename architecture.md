@@ -1,4 +1,4 @@
-# Lumina — Architecture Proposal
+# City Safer — Architecture Proposal
 
 ## Stack Decision (Hackathon-Optimised)
 

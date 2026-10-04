@@ -1,4 +1,4 @@
-# Implementation Plan — Lumina Web MVP
+# Implementation Plan — City Safer Web MVP
 
 **Stack:** Next.js 14 + Express + Supabase (PostGIS) + MapLibre GL JS  
 **Target:** Fully working demo deployable via Vercel + Railway in 24h

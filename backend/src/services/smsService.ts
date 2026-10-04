@@ -18,7 +18,7 @@ export async function sendSosAlert(
 
   const client = twilio(sid, token);
   const mapsLink = `https://maps.google.com/?q=${lat},${lng}`;
-  const body = `🆘 SAFETY ALERT: ${userName} triggered an emergency SOS. Last known location: ${mapsLink} — Lumina Safety App`;
+  const body = `🆘 SAFETY ALERT: ${userName} triggered an emergency SOS. Last known location: ${mapsLink} — City Safer Safety App`;
 
   const results = await Promise.allSettled(
     contacts.map((to) =>

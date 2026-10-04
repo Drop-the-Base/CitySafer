@@ -114,7 +114,7 @@ export async function fetchValhalla(from: LngLat, to: LngLat, opts: ValhallaOpti
   try {
     const res = await fetch(VALHALLA_URL, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'User-Agent': 'Lumina-HackYeah-prototype/1.0' },
+      headers: { 'Content-Type': 'application/json', 'User-Agent': 'CitySafer-HackYeah-prototype/1.0' },
       body: JSON.stringify(body),
       signal: AbortSignal.timeout(TIMEOUT_MS),
     });

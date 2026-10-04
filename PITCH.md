@@ -1,4 +1,4 @@
-# 🛡️ LUMINA — Pitch & Presentation Guide
+# 🛡️ CITY SAFER — Pitch & Presentation Guide
 > **Category:** Defense (HackYeah 2026)  
 > **Tagline:** Proactive safety navigation & invisible emergency automation for anyone moving through the city at night — civilian protection and urban resilience.
 
@@ -16,7 +16,7 @@ Every night in cities around the world, millions of people — night-shift worke
 
 ## 2. 💡 Solution
 
-**Lumina** bridges pre-incident risk avoidance with invisible, zero-touch emergency automation during a return commute.
+**City Safer** bridges pre-incident risk avoidance with invisible, zero-touch emergency automation during a return commute.
 
 ### Key Pillars:
 1. **🛡️ SafeRouting Engine:**
@@ -31,10 +31,10 @@ Every night in cities around the world, millions of people — night-shift worke
      * 🛑 **Unlit Alley Standstill:** Stopping in a dark zone for >2 minutes.
      * 🗺️ **Significant Route Deviation:** Sudden unexpected trajectory shift.
      * 🔋 **Critical Battery (<5%):** Pre-warning contacts before phone dies.
-   * Triggers a 60-second countdown with sound/visual alert: if the user does not cancel it (*"I'M SAFE"*), Lumina automatically dispatches SOS alerts with exact GPS coordinates.
+   * Triggers a 60-second countdown with sound/visual alert: if the user does not cancel it (*"I'M SAFE"*), City Safer automatically dispatches SOS alerts with exact GPS coordinates.
 
 3. **💬 SMS Fallback Protocol (Offline Reliability):**
-   * If mobile internet fails or drops, Lumina seamlessly dispatches SMS text alerts directly to trusted emergency contacts.
+   * If mobile internet fails or drops, City Safer seamlessly dispatches SMS text alerts directly to trusted emergency contacts.
 
 4. **🏠 Verified Safe Havens Network:**
    * Interactive map overlay showing 24/7 safe shelters: Police Stations, Hospitals, Pharmacy Shelters, Verified *Ask for Angela* partner venues, and personal Trusted Homes.
@@ -58,7 +58,7 @@ Every night in cities around the world, millions of people — night-shift worke
 ### 🎯 Goal of the Project:
 1. **Zero Friction Safety:** Provide an invisible safety net that works passively in a pocket without requiring constant interaction.
 2. **Empowerment & Peace of Mind:** Enable every citizen to move freely and fearlessly at night knowing they are guided along lit paths and backed by automated emergency protection.
-3. **Community & Institutional Integration:** Scale Lumina to integrate directly with municipal lighting data, city CCTV coverage, and local emergency dispatch services.
+3. **Community & Institutional Integration:** Scale City Safer to integrate directly with municipal lighting data, city CCTV coverage, and local emergency dispatch services.
 
 ---
 
@@ -66,8 +66,8 @@ Every night in cities around the world, millions of people — night-shift worke
 
 > **"Cześć! Obojętnie jak bardzo rozwijają się nasze miasta, ludzie wracający nocą samotnie do domu wciąż czują się zagrożeni. Dlaczego? Bo Google Maps prowadzi najszybszą trasą — prosto w ciemny zaułek.**
 >
-> **Oto Lumina.** Aplikacja nawigacyjna stworzona z myślą o kategorii **Defense**, która łączy **inteligentne omijanie ryzyka przed zdarzeniem** z **automatyczną opieką w trakcie powrotu**.
+> **Oto City Safer.** Aplikacja nawigacyjna stworzona z myślą o kategorii **Defense**, która łączy **inteligentne omijanie ryzyka przed zdarzeniem** z **automatyczną opieką w trakcie powrotu**.
 >
-> Lumina wyznacza **Bezpieczną Trasę**, omijając nieoświetlone strefy i zgłoszenia niebezpieczeństw. Ale co najważniejsze: nie wymaga wciskania żadnego przycisku w chwili zagrożenia. W tle działa nasz **Dead Man’s Switch** — jeśli akcelerometr wykryje nagły bieg, szamotaninę lub zatrzymanie w ciemnej uliczce, aplikacja sama rozpocznie odliczanie i wyśle alert z pozycją GPS do bliskich. Działa to nawet bez dostępu do internetu dzięki naszemu **SMS Fallback Protocol**.
+> City Safer wyznacza **Bezpieczną Trasę**, omijając nieoświetlone strefy i zgłoszenia niebezpieczeństw. Ale co najważniejsze: nie wymaga wciskania żadnego przycisku w chwili zagrożenia. W tle działa nasz **Dead Man’s Switch** — jeśli akcelerometr wykryje nagły bieg, szamotaninę lub zatrzymanie w ciemnej uliczce, aplikacja sama rozpocznie odliczanie i wyśle alert z pozycją GPS do bliskich. Działa to nawet bez dostępu do internetu dzięki naszemu **SMS Fallback Protocol**.
 >
 > Mamy w pełni działające MVP z podwójnym silnikiem tras, sensoryką i schronieniami Safe Haven. **Dziękujemy!"**

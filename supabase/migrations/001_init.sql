@@ -1,5 +1,5 @@
 -- ============================================================
--- Lumina Safety App — Database Migration 001
+-- City Safer Safety App — Database Migration 001
 -- Run in Supabase SQL Editor
 -- ============================================================
 
