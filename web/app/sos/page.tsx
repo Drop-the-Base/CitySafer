@@ -45,7 +45,7 @@ export default function SosPage() {
   const lng = userLocation?.[1] ?? 19.9449;
   const smsContacts = trustedContacts.filter((c) => c.smsFallback && c.phone);
   const smsBody =
-    `🆘 LUMINA SOS: potrzebuję pomocy (${TRIGGER_LABELS[sosTriggerType] ?? sosTriggerType}). ` +
+    `🆘 City Safer SOS: potrzebuję pomocy (${TRIGGER_LABELS[sosTriggerType] ?? sosTriggerType}). ` +
     `Moja lokalizacja: https://maps.google.com/?q=${lat.toFixed(5)},${lng.toFixed(5)}`;
   // Native SMS intent: works without mobile data, which is the whole point of the fallback
   const smsHref = `sms:${smsContacts.map((c) => c.phone.replace(/\s+/g, '')).join(',')}?&body=${encodeURIComponent(smsBody)}`;
@@ -100,7 +100,7 @@ export default function SosPage() {
 
     const explanation =
       send.status === 'sending'
-        ? 'Łączenie z serwerem Lumina.'
+        ? 'Łączenie z serwerem City Safer.'
         : send.status === 'failed'
         ? 'Alarm NIE dotarł do serwera. Wyślij SMS do zaufanych kontaktów lub zadzwoń na 112.'
         : allSmsSent

@@ -9,7 +9,7 @@ import DeadManMonitor from '@/components/DeadManMonitor';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Lumina / Defense — Inteligentny Powrót do Domu',
+  title: 'City Safer / Defense — Inteligentny Powrót do Domu',
   description: 'Bezpieczny routing, automatyczny Dead Man’s Switch oraz sieć zaufanych kontaktów i raportów.',
 };
 

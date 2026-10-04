@@ -922,7 +922,7 @@ export default function MapPage() {
         <div className="absolute top-4 left-4 right-4 flex items-start justify-between pointer-events-none z-30">
           <div className="pointer-events-auto bg-olive-900/90 backdrop-blur rounded-2xl px-4 py-2.5 border border-olive-700 shadow-xl space-y-0.5">
             <div className="flex items-center gap-2">
-              <span className="text-white font-bold text-sm">🛡️ Lumina</span>
+              <span className="text-white font-bold text-sm">🛡️ City Safer</span>
               <span className={`px-2 py-0.5 rounded-full text-[9px] font-bold ${
                 deadManSettings?.enabled
                   ? 'bg-teal-950 text-teal-300 border border-teal-800'
@@ -1292,7 +1292,7 @@ export default function MapPage() {
             <div>
               <h3 className="text-xl font-black text-white">Dotarłaś bezpiecznie do celu!</h3>
               <p className="text-xs text-olive-300 mt-1 leading-relaxed">
-                Trasa zakończona sukcesem. System Lumina monitorował Twoje bezpieczeństwo na każdym kroku.
+                Trasa zakończona sukcesem. System City Safer monitorował Twoje bezpieczeństwo na każdym kroku.
               </p>
             </div>
             <div className="bg-olive-800/80 rounded-2xl p-3 border border-olive-700/60 flex justify-around text-center">

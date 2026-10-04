@@ -31,5 +31,5 @@ export async function sendSms(recipients: string[], body: string): Promise<numbe
 
 export function sosMessage(lat: number, lng: number, trigger: string) {
   const reason = trigger === 'Manual' ? 'uruchomiła alarm SOS' : `wyzwolony automatycznie (${trigger})`;
-  return `🆘 LUMINA SOS: ${reason}. Ostatnia lokalizacja: https://maps.google.com/?q=${lat.toFixed(5)},${lng.toFixed(5)}`;
+  return `🆘 City Safer SOS: ${reason}. Ostatnia lokalizacja: https://maps.google.com/?q=${lat.toFixed(5)},${lng.toFixed(5)}`;
 }

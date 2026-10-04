@@ -167,7 +167,7 @@ export default function ContactsPage() {
             <label className="text-xs text-olive-400 font-medium">Konto w aplikacji (opcjonalnie)</label>
             <input
               type="text"
-              placeholder="@nick_w_lumina"
+              placeholder="@nick_w_city_safer"
               value={appAccount}
               onChange={(e) => setAppAccount(e.target.value)}
               className="w-full mt-1 bg-olive-950 border border-olive-700 rounded-xl px-3 py-2 text-sm text-white focus:outline-none focus:border-lime-400"

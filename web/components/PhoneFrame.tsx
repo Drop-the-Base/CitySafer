@@ -33,7 +33,7 @@ export default function PhoneFrame({ children }: { children: React.ReactNode }) 
           </div>
           <div>
             <div className="flex items-center gap-1.5 flex-wrap">
-              <h1 className="font-black text-xl tracking-tight text-white">Lumina</h1>
+              <h1 className="font-black text-xl tracking-tight text-white">City Safer</h1>
               <span className="px-2 py-0.5 rounded-full text-[9px] font-bold bg-lime-950 text-lime-300 border border-lime-800">
                 Prototyp
               </span>

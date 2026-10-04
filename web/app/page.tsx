@@ -11,7 +11,7 @@ export default function Home() {
           </div>
           <div>
             <h1 className="text-4xl font-black bg-gradient-to-r from-lime-400 via-yellow-400 to-amber-300 bg-clip-text text-transparent tracking-tight">
-              Lumina
+              City Safer
             </h1>
             <p className="text-olive-400 text-sm mt-1 font-medium">
               Inteligentny i Bezpieczny Powrót do Domu
